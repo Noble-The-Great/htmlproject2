@@ -1,0 +1,231 @@
+body{width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#nav{
+width: 100%;
+display: flex;
+justify-content: space-between;
+background-color:#F1A438;
+padding: 10px 0px;
+margin-bottom: 0;
+
+}
+
+
+#links{
+	
+margin-top: 20px;
+margin-right: 15px;
+
+	}
+
+
+.link{
+	
+	padding-right: 15px;
+	text-decoration: none;
+	color: black;
+	
+	
+}
+
+#bigasspic2{
+	width: 100%;
+	background-image: url("../images/./burger.jpg");
+	background-size: cover;
+	padding-bottom: 500px;
+	margin-top: 0;
+	position: relative;
+}
+.h2big{
+	position: absolute;
+	right: 35%;
+	bottom: 30px;
+	font-size: 2vw;
+	text-align: center;
+	width: 30%;
+	border: 5px solid black;
+	background-color: white;
+	padding: 20px;
+	margin-top: 0;
+}
+
+#time{ width: 100%;
+	background-color: lightgray;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+
+
+#firsttext{
+	font-size: 2vw;
+	display: flex;
+	flex-direction: column;}
+
+	#secondtext{
+		font-size: 2vw;
+		display: flex;
+		flex-direction: column;
+		align-self: flex-end;
+	}
+	#thirdtext{
+		font-size: 2vw;
+		display: flex;
+		flex-direction: column;
+		align-self: center;
+		padding-top: 30px;
+	}
+	.space{
+		margin-top: 0px;
+
+	}
+	.fa-star{
+		
+		color: darkred;
+	}
+
+	#box1{
+		font-size: 2vw;
+	display: flex;
+	flex-direction: column;
+	margin-left: 32%;
+		
+	 width: 50%;
+	
+	}
+
+
+#topword{
+	
+	font-size: 3.1vw;
+width: 100%;
+
+
+}
+
+.save{
+	font-size: 1vw;
+	width: 50%;
+	color: whitesmoke;
+		padding: 0 100%;
+	background-color: darkred;
+	padding: 15px 40px;
+	border-radius: 100px;
+	
+
+}
+
+
+#star{
+	margin-left: 4%;
+	margin-bottom: 3%;
+}
+
+
+.print{
+font-size: 1vw;
+border-radius:10000px ;
+background-color: whitesmoke;
+padding: 15px 40px;
+	border-radius: 100px;
+	width: 2%;
+}
+
+
+.spacebar{
+		color: black;
+}
+
+#buttonboxes{
+	margin-left: -6%;
+	margin-top: 10px;
+	margin-right: 16%;
+}
+
+#quote{
+border-radius: 5%;
+	margin-left: 5%;
+	font-size: 3vw;
+	background-color: lightgray;
+	margin-top: 60px;
+	padding:  30px 5%;
+	width: 80%;
+}
+
+
+
+
+#lastflexbox{
+	margin-top: 40px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+
+#ingredients{
+	margin-right: 2%;
+	width: 30%;
+font-size: 2vw;
+
+}
+
+#directions{
+margin-left: 2%;	
+font-size: 2vw;
+width: 60%;
+
+
+}
+
+
+#iframevideo iframe {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	width: 100%;
+}
+
+
+footer{
+	padding: 20px 0px;
+	background-color: #F1A438;
+	display: flex;
+	justify-content: space-between;
+}
+#copyright{
+	padding-left: 4%;
+}
+
+#footlinks{
+    padding-top: 15px;
+	padding-right: 45px;
+	
+}
+.footlink{
+
+margin-right: 10px;
+text-decoration: none;
+color: black;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 615px){
+
+#bigasspic2{
+	padding-bottom: 350px;
+}
+
+
+
+}

@@ -1,0 +1,394 @@
+
+
+body {padding: 0;
+margin: 0;
+width: 100%;}
+
+
+#nav{
+width: 100%;
+display: flex;
+justify-content: space-between;
+background-color: #F1A438;
+padding: 10px 0px;
+
+}
+
+
+#links{
+margin-top: 20px;
+margin-right: 15px;
+
+	}
+
+
+.link{
+	padding-right: 15px;
+	text-decoration: none;
+	color: black;
+	
+	
+}
+
+#bigasspic{
+	position: relative;
+	background-image: url("../images/./first.jpg");
+	background-size: cover;
+	width: 100%;
+	padding-bottom: 500px;
+	margin: 0 auto;
+	}
+
+
+#smallbox{
+
+	margin: 0 auto;
+	position: absolute;
+	bottom: 10%;
+	right: 25%;
+width: 40%;
+
+	
+	border: 5px solid whitesmoke;
+	background-color: whitesmoke;
+	
+	
+}
+#smallbox h2 {
+	text-align: center;
+
+	font-size: 2vw;
+}
+
+#mid{
+	padding-top: ;
+padding-left: 5%;
+padding-right: 5%;
+}
+
+
+
+#qoute1{
+	font-size: 2vw;
+	text-align: center;
+	width: 70%;
+	margin:  0 auto;
+}
+
+#next3pics{
+	margin-top: 20px;
+width: 100%;
+display: flex;
+justify-content: space-between;
+
+}
+
+#pics{
+width: 30%;
+display: flex;
+flex-direction: column;
+
+
+}
+#h5{
+	margin-top: 0;
+	text-align: center;
+	font-size: 2vw;
+}
+
+#pic1{
+background-image: url("../images/./yummy.jpg");
+background-size: 100% 100%;
+padding-bottom: 300px;
+	margin-bottom: 0;
+
+
+}
+
+#pic2{
+	background-image: url("../images/./veggies.jpg");
+	background-size: 100% 100%;
+	padding-bottom: 300px;
+		margin-bottom: 0;
+
+}
+
+
+#pic3{
+background-image: url("../images/./dinner.jpeg");
+background-size: 100% 100%;
+padding-bottom: 300px;
+	margin-bottom: 0;
+}
+
+#graybox{
+background-color: lightgray;
+width: 100%;
+padding-bottom: 20px;
+
+
+}
+#quote2{
+	padding-top: 30px;
+	padding-bottom: 20px;
+	font-size: 3vw;
+	padding-left: 8%;
+	width: 90%;
+}
+
+#fourpics{
+margin-left: 4%;
+margin-right: 2%;
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+
+#pic4{
+padding-bottom: 220px;
+background-image: url("../images/./fajita.jpeg");
+background-size: 100% 100%;
+width: 100%;
+}
+
+
+#pic5{
+padding-bottom: 220px;
+background-image: url("../images/./muffins.jpeg");
+background-size: 100% 100%;
+width: 100%;
+	
+}
+
+
+#pic6{
+padding-bottom: 220px;
+background-image: url("../images/./eggplant.jpg");
+background-size: 100% 100%;
+width: 100%;
+}
+
+
+#pic7{
+padding-bottom: 220px;
+background-image: url("../images/./teriyaki.jpeg");
+background-size: 100% 100%;
+width: 100%;
+
+	
+}
+
+#next4pics{
+   
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	justify-content: center;
+
+}
+
+.pop {
+	text-align: center;
+	margin-top: 0;
+	background-color: whitesmoke;
+	width: 100%;
+	padding: 15px 0px;
+	font-size: 2vw;
+}
+
+#bottomsection{
+	width: 80%;
+}
+
+#quote3{
+	width: 92%;
+	font-size: 2vw;
+	padding-left: 15%;
+}
+
+#pic8{
+border: 5px solid lightgray;
+width: 89%;
+background-image: url("../images/./goodburger.jpg");
+background-size: 100% 100%;
+padding-bottom: 240px;
+}
+
+#pic9{
+border: 5px solid lightgray;
+width: 89%;	
+background-image: url("../images/./pizza.jpeg");
+background-size: 100% 100%;	
+padding-bottom: 240px;
+}
+
+
+#pic10{
+border: 5px solid lightgray;
+width: 89%;
+background-image: url("../images/./shrimpbowl.jpeg");
+background-size: 100% 100%;
+padding-bottom: 240px;	
+
+}
+#lastthreepics{
+	padding-left: 15%;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+#lastthreeflex{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.poppy{
+	text-align: center;
+	font-size: 2vw;
+	margin-top: 0;
+	width:89%;
+}
+
+footer{
+	padding: 20px 0px;
+	background-color: #F1A438;
+	display: flex;
+	justify-content: space-between;
+}
+
+#copyright{
+	padding-left: 4%;
+}
+
+#footlinks{
+    padding-top: 15px;
+	padding-right: 45px;
+	
+}
+.footlink{
+
+margin-right: 10px;
+text-decoration: none;
+color: black;
+}
+
+@media only screen and (max-width: 925px){
+
+
+	#bigasspic{
+
+
+		padding-bottom: 410px;
+	}
+
+#pic1{padding-bottom: 200px;
+
+
+}
+#pic2{
+padding-bottom: 200px;
+
+}
+
+#pic3{
+padding-bottom: 200px;
+
+}
+
+#pic4{
+padding-bottom: 150px;
+
+}
+
+#pic5{
+padding-bottom: 150px;
+
+}
+#pic6{
+padding-bottom: 150px;
+
+}
+
+#pic7{
+padding-bottom: 150px;
+
+}
+#pic8{
+padding-bottom: 160px;
+
+}
+#pic9 {
+
+padding-bottom: 160px;
+}
+
+#pic10{
+
+padding-bottom: 160px;
+}
+
+
+
+	
+
+
+}
+
+
+@media only screen and (max-width: 715px){
+
+	#bigasspic{
+
+
+		padding-bottom: 350px;
+	}
+
+#pic1{padding-bottom: 170px;
+
+
+}
+#pic2{
+padding-bottom: 170px;
+
+}
+
+#pic3{
+padding-bottom: 170px;
+
+}
+
+#pic4{
+padding-bottom: 120px;
+
+}
+
+#pic5{
+padding-bottom: 120px;
+
+}
+#pic6{
+padding-bottom: 120px;
+
+}
+
+#pic7{
+padding-bottom: 120px;
+
+}
+#pic8{
+padding-bottom: 130px;
+
+}
+#pic9 {
+
+padding-bottom: 130px;
+}
+
+#pic10{
+
+padding-bottom: 130px;
+}
+
+
+}
